@@ -93,6 +93,7 @@ plugins:
   - jekyll-remote-theme
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-scholar
   - jemoji
 
 # See https://jekyllrb.com/docs/pagination/
@@ -120,3 +121,7 @@ kramdown:
 feed:
   posts_limit: 5 #default posts_limit: 10
   excerpt_only: true
+  
+# citation style
+scholar:
+  style: physical-review-d
