@@ -124,5 +124,4 @@ feed:
   
 # citation style
 scholar:
-  style: physical-review-d
   source: _bibliography
