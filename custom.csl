@@ -148,7 +148,7 @@
       </choose>
       <choose>
         <if variable="DOI">
-          <text variable="DOI" prefix=". https://doi.org/"/>
+          <text variable="DOI" prefix='. <a href="https://doi.org/', suffix='">DOI</a>' />
         </if>
         <else>
           <text macro="access" prefix=". "/>
