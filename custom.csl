@@ -136,7 +136,7 @@
         </else-if>
         <else>
           <group delimiter=" ">
-            <text variable="title" prefix='"' suffix='," '/>
+            <text variable="title" prefix='"' suffix='". '/>
             <text variable="container-title" font-style="italic" />
             <group delimiter=":">
                 <text variable="volume" font-weight="bold" suffix=""/>
